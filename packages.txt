@@ -1,0 +1,16 @@
+#cupy # install if using GPU
+ipywidgets
+jupyterlab
+matplotlib
+numpy=1.20 # needed for SHAP compatibility
+openpyxl
+pandas
+scipy
+seaborn
+scikit-learn
+shap
+spacy
+statsmodels
+
+# python -m spacy download da_core_news_trf # if using spacy
+# pip install -U dacy # if using dacy; may need rust compiler
